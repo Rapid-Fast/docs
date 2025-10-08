@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Lane Modmail",
         "groups": [
           {
             "group": "Getting Started",
@@ -60,18 +60,7 @@
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Support Server",
-          "href": "https://discord.gg/lanescrims",
-          "icon": "discord"
-        },
-        {
-          "anchor": "Lane Esports",
-          "href": "https://laneesports.gg",
-          "icon": "gamepad"
-        }
-      ]
+      "anchors": []
     }
   },
   "logo": {
@@ -79,12 +68,7 @@
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Discord",
-        "href": "https://discord.gg/lanescrims"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Open Modmail",
@@ -100,12 +84,5 @@
       "cursor",
       "vscode"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/laneesports",
-      "github": "https://github.com/Dragory/modmailbot",
-      "linkedin": "https://linkedin.com/company/laneesports"
-    }
   }
 }
