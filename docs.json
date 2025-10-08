@@ -10,38 +10,38 @@
     "groups": [
       {
         "group": "Getting Started",
-        "pages": ["index", "getting-started-quick-workflow"]
+        "pages": ["index", "getting-started/quick-workflow"]
       },
       {
         "group": "Using Modmail Threads",
         "pages": [
-          "using-thread-basics",
-          "using-replying",
-          "using-managing-threads"
+          "using-modmail-threads/thread-basics",
+          "using-modmail-threads/replying",
+          "using-modmail-threads/managing-threads"
         ]
       },
       {
         "group": "Moderation & Tools",
         "pages": [
-          "moderation-notes-and-tags",
-          "moderation-assignments-and-claims",
-          "moderation-escalations"
+          "moderation-and-tools/notes-and-tags",
+          "moderation-and-tools/assignments-and-claims",
+          "moderation-and-tools/escalations"
         ]
       },
       {
         "group": "Extra Features",
         "pages": [
-          "extra-search-and-history",
-          "extra-snippets-and-templates",
-          "extra-blocking-and-restrictions"
+          "extra-features/search-and-history",
+          "extra-features/snippets-and-templates",
+          "extra-features/blocking-and-restrictions"
         ]
       },
       {
         "group": "Miscellaneous",
         "pages": [
-          "misc-how-to-speak-to-members",
-          "misc-common-issues",
-          "misc-faq"
+          "miscellaneous/how-to-speak-to-members",
+          "miscellaneous/common-issues",
+          "miscellaneous/faq"
         ]
       }
     ],
