@@ -25,7 +25,7 @@
       },
       {
         "group": "Using Modmail Threads",
-        "icon": "chat",
+        "icon": "message-square",
         "expanded": false,
         "pages": [
           "using-modmail-threads/thread-basics",
