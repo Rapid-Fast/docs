@@ -9,54 +9,45 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Lane Modmail",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "index",
-              "getting-started/quick-workflow"
-            ]
-          },
-          {
-            "group": "Using Modmail Threads",
-            "pages": [
-              "using-modmail-threads/thread-basics",
-              "using-modmail-threads/replying",
-              "using-modmail-threads/managing-threads"
-            ]
-          },
-          {
-            "group": "Moderation & Tools",
-            "pages": [
-              "moderation-and-tools/notes-and-tags",
-              "moderation-and-tools/assignments-and-claims",
-              "moderation-and-tools/escalations"
-            ]
-          },
-          {
-            "group": "Extra Features",
-            "pages": [
-              "extra-features/search-and-history",
-              "extra-features/snippets-and-templates",
-              "extra-features/blocking-and-restrictions"
-            ]
-          },
-          {
-            "group": "Miscellaneous",
-            "pages": [
-              "miscellaneous/how-to-speak-to-members",
-              "miscellaneous/common-issues",
-              "miscellaneous/faq"
-            ]
-          }
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "getting-started/quick-workflow"
         ]
       },
       {
-        "tab": "API reference",
-        "groups": []
+        "group": "Using Modmail Threads",
+        "pages": [
+          "using-modmail-threads/thread-basics",
+          "using-modmail-threads/replying",
+          "using-modmail-threads/managing-threads"
+        ]
+      },
+      {
+        "group": "Moderation & Tools",
+        "pages": [
+          "moderation-and-tools/notes-and-tags",
+          "moderation-and-tools/assignments-and-claims",
+          "moderation-and-tools/escalations"
+        ]
+      },
+      {
+        "group": "Extra Features",
+        "pages": [
+          "extra-features/search-and-history",
+          "extra-features/snippets-and-templates",
+          "extra-features/blocking-and-restrictions"
+        ]
+      },
+      {
+        "group": "Miscellaneous",
+        "pages": [
+          "miscellaneous/how-to-speak-to-members",
+          "miscellaneous/common-issues",
+          "miscellaneous/faq"
+        ]
       }
     ],
     "global": {
