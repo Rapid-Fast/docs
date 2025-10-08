@@ -30,7 +30,7 @@ Anonymous replies hide your staff name, only showing your staff role. Use this w
 
 * Useful for sensitive topics or when multiple staff handle the same thread.
 * Example: `?ar Please follow the server rules carefully.`
-* Note: Anonymous replies will respect the `forceAnon` setting if enabled.
+* Note: Anonymous replies will respect the `forceAnon` setting if enabled. This setting can only be toggled by the bot developer (rapid.fast), so isn't a valid command. As of the time of writing, this setting is disabled meaning all current replies are "real replies".
 
 ### Real Replies
 
