@@ -3,19 +3,15 @@
   "theme": "mint",
   "name": "Lane Modmail Docs",
   "colors": {
-    "primary": "#FACC15",
-    "light": "#FDE68A",
-    "dark": "#B45309"
+    "primary": "#FFD43B",
+    "light": "#FFF29B",
+    "dark": "#C9A800"
   },
   "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
+        "tab": "Guides",
         "groups": [
           {
             "group": "Getting Started",
@@ -23,38 +19,23 @@
               "index",
               "getting-started/quick-workflow"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Using Modmail Threads",
-        "groups": [
+          },
           {
-            "group": "Threads",
+            "group": "Using Modmail Threads",
             "pages": [
               "using-modmail-threads/thread-basics",
               "using-modmail-threads/replying",
               "using-modmail-threads/managing-threads"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Moderation & Tools",
-        "groups": [
+          },
           {
-            "group": "Moderation",
+            "group": "Moderation & Tools",
             "pages": [
               "moderation-and-tools/notes-and-tags",
               "moderation-and-tools/assignments-and-claims",
               "moderation-and-tools/escalations"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Extra Features",
-        "groups": [
+          },
           {
             "group": "Extra Features",
             "pages": [
@@ -62,12 +43,7 @@
               "extra-features/snippets-and-templates",
               "extra-features/blocking-and-restrictions"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Miscellaneous",
-        "groups": [
+          },
           {
             "group": "Miscellaneous",
             "pages": [
@@ -78,7 +54,9 @@
           }
         ]
       }
-    ]
-  },
-  "customCss": "body[data-theme='dark'] { background: linear-gradient(135deg, #B45309, #78350F); }"
+    ],
+    "global": {
+      "anchors": []
+    }
+  }
 }
