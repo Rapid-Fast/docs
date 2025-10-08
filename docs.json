@@ -5,7 +5,7 @@
   "colors": {
     "primary": "#5865F2",
     "light": "#7289DA",
-    "dark": "#3C45A5"
+    "dark": "#404EED"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -53,19 +53,23 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "API reference",
+        "groups": []
       }
     ],
     "global": {
       "anchors": [
         {
+          "anchor": "Support Server",
+          "href": "https://discord.gg/lanescrims",
+          "icon": "discord"
+        },
+        {
           "anchor": "Lane Esports",
           "href": "https://laneesports.gg",
           "icon": "gamepad"
-        },
-        {
-          "anchor": "Support Server",
-          "href": "https://discord.gg/YOUR_INVITE_HERE",
-          "icon": "discord"
         }
       ]
     }
@@ -78,7 +82,7 @@
     "links": [
       {
         "label": "Discord",
-        "href": "https://discord.gg/YOUR_INVITE_HERE"
+        "href": "https://discord.gg/lanescrims"
       }
     ],
     "primary": {
@@ -92,6 +96,7 @@
       "copy",
       "view",
       "chatgpt",
+      "claude",
       "cursor",
       "vscode"
     ]
@@ -99,7 +104,8 @@
   "footer": {
     "socials": {
       "x": "https://x.com/laneesports",
-      "github": "https://github.com/Dragory/modmailbot"
+      "github": "https://github.com/Dragory/modmailbot",
+      "linkedin": "https://linkedin.com/company/laneesports"
     }
   }
 }
