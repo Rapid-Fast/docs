@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Lane Modmail Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#5865F2",
+    "light": "#7289DA",
+    "dark": "#3C45A5"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,55 +14,58 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "getting-started/quick-workflow"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Using Modmail Threads",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "using-modmail-threads/thread-basics",
+              "using-modmail-threads/replying",
+              "using-modmail-threads/managing-threads"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Moderation & Tools",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "moderation-and-tools/notes-and-tags",
+              "moderation-and-tools/assignments-and-claims",
+              "moderation-and-tools/escalations"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Extra Features",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "extra-features/search-and-history",
+              "extra-features/snippets-and-templates",
+              "extra-features/blocking-and-restrictions"
+            ]
+          },
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              "miscellaneous/how-to-speak-to-members",
+              "miscellaneous/common-issues",
+              "miscellaneous/faq"
             ]
           }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": []
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Lane Esports",
+          "href": "https://laneesports.gg",
+          "icon": "gamepad"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Support Server",
+          "href": "https://discord.gg/YOUR_INVITE_HERE",
+          "icon": "discord"
         }
       ]
     }
@@ -74,14 +77,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Discord",
+        "href": "https://discord.gg/YOUR_INVITE_HERE"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open Modmail",
+      "href": "https://discord.com/users/YOUR_BOT_ID_HERE"
     }
   },
   "contextual": {
@@ -89,18 +92,14 @@
       "copy",
       "view",
       "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
       "cursor",
       "vscode"
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/laneesports",
+      "github": "https://github.com/Dragory/modmailbot"
     }
   }
 }
