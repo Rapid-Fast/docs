@@ -3,77 +3,81 @@
   "theme": "mint",
   "name": "Lane Modmail Docs",
   "colors": {
-    "primary": "#5865F2",
-    "light": "#7289DA",
-    "dark": "#404EED"
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "groups": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "getting-started/quick-workflow"
-        ]
-      },
-      {
-        "group": "Using Modmail Threads",
-        "pages": [
-          "using-modmail-threads/thread-basics",
-          "using-modmail-threads/replying",
-          "using-modmail-threads/managing-threads"
-        ]
-      },
-      {
-        "group": "Moderation & Tools",
-        "pages": [
-          "moderation-and-tools/notes-and-tags",
-          "moderation-and-tools/assignments-and-claims",
-          "moderation-and-tools/escalations"
-        ]
-      },
-      {
-        "group": "Extra Features",
-        "pages": [
-          "extra-features/search-and-history",
-          "extra-features/snippets-and-templates",
-          "extra-features/blocking-and-restrictions"
-        ]
-      },
-      {
-        "group": "Miscellaneous",
-        "pages": [
-          "miscellaneous/how-to-speak-to-members",
-          "miscellaneous/common-issues",
-          "miscellaneous/faq"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": []
-    }
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [],
-    "primary": {
-      "type": "button",
-      "label": "Open Modmail",
-      "href": "https://discord.com/users/YOUR_BOT_ID_HERE"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Getting Started",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "getting-started/quick-workflow"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Using Modmail Threads",
+        "groups": [
+          {
+            "group": "Threads",
+            "pages": [
+              "using-modmail-threads/thread-basics",
+              "using-modmail-threads/replying",
+              "using-modmail-threads/managing-threads"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Moderation & Tools",
+        "groups": [
+          {
+            "group": "Moderation",
+            "pages": [
+              "moderation-and-tools/notes-and-tags",
+              "moderation-and-tools/assignments-and-claims",
+              "moderation-and-tools/escalations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Extra Features",
+        "groups": [
+          {
+            "group": "Extra Features",
+            "pages": [
+              "extra-features/search-and-history",
+              "extra-features/snippets-and-templates",
+              "extra-features/blocking-and-restrictions"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Miscellaneous",
+        "groups": [
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              "miscellaneous/how-to-speak-to-members",
+              "miscellaneous/common-issues",
+              "miscellaneous/faq"
+            ]
+          }
+        ]
+      }
     ]
   }
 }
