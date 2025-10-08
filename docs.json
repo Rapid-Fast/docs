@@ -1,11 +1,15 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Lane Modmail Docs",
+  "name": "Lane Scrims",
   "colors": {
     "primary": "#FFD700",
     "light": "#FFE066",
     "dark": "#E6B800"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "navigation": {
     "groups": [
