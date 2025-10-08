@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Lane Scrims Modmail Documentation",
+  "name": "Lane Scrims Docs",
   "colors": {
     "primary": "#FFD700",
     "light": "#FFE066",
@@ -16,7 +16,7 @@
     "groups": [
       {
         "group": "Getting Started",
-        "icon": "play-circle",
+        "icon": "play",
         "expanded": false,
         "pages": [
           "getting-started/index",
@@ -25,7 +25,7 @@
       },
       {
         "group": "Using Modmail Threads",
-        "icon": "chat-bubble-left-right", 
+        "icon": "chat",
         "expanded": false,
         "pages": [
           "using-modmail-threads/thread-basics",
@@ -55,7 +55,7 @@
       },
       {
         "group": "Miscellaneous",
-        "icon": "chat-bubble-ellipses",
+        "icon": "info",
         "expanded": false,
         "pages": [
           "miscellaneous/how-to-speak-to-members",
