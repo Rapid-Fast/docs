@@ -3,7 +3,9 @@
   "theme": "mint",
   "name": "Lane Modmail Docs",
   "colors": {
-    "primary": "#FFD700"
+    "primary": "#FFD700",
+    "light": "#FFE066",
+    "dark": "#E6B800"
   },
   "navigation": {
     "groups": [
@@ -18,7 +20,7 @@
       },
       {
         "group": "Using Modmail Threads",
-        "icon": "chat",
+        "icon": "chat-bubble-left-right",
         "expanded": false,
         "pages": [
           "using-modmail-threads/thread-basics",
@@ -48,7 +50,7 @@
       },
       {
         "group": "Miscellaneous",
-        "icon": "dots-horizontal",
+        "icon": "chat",
         "expanded": false,
         "pages": [
           "miscellaneous/how-to-speak-to-members",
