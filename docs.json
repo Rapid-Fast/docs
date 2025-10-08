@@ -3,16 +3,23 @@
   "theme": "mint",
   "name": "Lane Modmail Docs",
   "colors": {
-    "primary": "#FFD43B"
+    "primary": "#FFD700"
   },
   "navigation": {
     "groups": [
       {
         "group": "Getting Started",
-        "pages": ["index", "getting-started/quick-workflow"]
+        "icon": "play",
+        "expanded": false,
+        "pages": [
+          "getting-started/index",
+          "getting-started/quick-workflow"
+        ]
       },
       {
         "group": "Using Modmail Threads",
+        "icon": "chat",
+        "expanded": false,
         "pages": [
           "using-modmail-threads/thread-basics",
           "using-modmail-threads/replying",
@@ -21,6 +28,8 @@
       },
       {
         "group": "Moderation & Tools",
+        "icon": "shield-check",
+        "expanded": false,
         "pages": [
           "moderation-and-tools/notes-and-tags",
           "moderation-and-tools/assignments-and-claims",
@@ -29,6 +38,8 @@
       },
       {
         "group": "Extra Features",
+        "icon": "sparkles",
+        "expanded": false,
         "pages": [
           "extra-features/search-and-history",
           "extra-features/snippets-and-templates",
@@ -37,6 +48,8 @@
       },
       {
         "group": "Miscellaneous",
+        "icon": "dots-horizontal",
+        "expanded": false,
         "pages": [
           "miscellaneous/how-to-speak-to-members",
           "miscellaneous/common-issues",
