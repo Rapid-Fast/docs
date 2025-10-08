@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Lane Modmail Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FACC15",
+    "light": "#FDE68A",
+    "dark": "#B45309"
   },
   "favicon": "/favicon.svg",
   "logo": {
@@ -79,5 +79,6 @@
         ]
       }
     ]
-  }
+  },
+  "customCss": "body[data-theme='dark'] { background: linear-gradient(135deg, #B45309, #78350F); }"
 }
